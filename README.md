@@ -1,3 +1,4 @@
-# Out and Out Adventure
+# 🏕 Out and Out Adventure 
 
-_A wonderful outdoor adventure blog. For Sophie. Don't forget me when you make it as an influencer. With love, Tom_
+## An outdoor adventure blog. 
+_For Sophie. Don't forget me when you make it as an influencer. With love, Tom_
