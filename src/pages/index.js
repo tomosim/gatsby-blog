@@ -4,6 +4,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "../components/header"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import About from "../components/about"
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
@@ -19,6 +20,7 @@ const IndexPage = () => {
     <Layout>
       <SEO title="Home" />
       <Header siteTitle={data.site.siteMetadata.title} />
+      <About />
     </Layout>
   )
 }
