@@ -3,9 +3,7 @@ import React from "react"
 
 const Header = ({ siteTitle }) => (
   <header>
-    <div>
-      <h1>{siteTitle}</h1>
-    </div>
+    <h1 style={{ fontSize: "50pt" }}>{siteTitle}</h1>
   </header>
 )
 
