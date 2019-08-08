@@ -1,21 +1,13 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { graphql } from "gatsby"
 
 import Header from "../components/header"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import About from "../components/about"
 
-const IndexPage = () => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
+const IndexPage = ({ data }) => {
+  console.log(data)
   return (
     <Layout>
       <SEO title="Home" />
@@ -24,5 +16,40 @@ const IndexPage = () => {
     </Layout>
   )
 }
+
+export const blogPageQuery = graphql`
+  query RecentPosts {
+    allMarkdownRemark(
+      limit: 3
+      sort: { fields: frontmatter___date, order: DESC }
+    ) {
+      edges {
+        node {
+          frontmatter {
+            author
+            date(fromNow: false)
+            title
+            primaryImage {
+              childImageSharp {
+                fixed(width: 300) {
+                  src
+                  srcSet
+                  height
+                  width
+                }
+              }
+            }
+          }
+          excerpt(pruneLength: 100)
+        }
+      }
+    }
+    site {
+      siteMetadata {
+        title
+      }
+    }
+  }
+`
 
 export default IndexPage
