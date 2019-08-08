@@ -5,6 +5,7 @@ import Header from "../components/header"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import About from "../components/about"
+import BlogGrid from "../components/blog-list"
 
 const IndexPage = ({ data }) => {
   console.log(data)
@@ -13,6 +14,7 @@ const IndexPage = ({ data }) => {
       <SEO title="Home" />
       <Header siteTitle={data.site.siteMetadata.title} />
       <About />
+      <BlogGrid blogs={data.allMarkdownRemark.edges} />
     </Layout>
   )
 }
