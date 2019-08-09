@@ -5,7 +5,7 @@ html {
 }
 .parallax {
   background-image: url("../images/home-page-image.jpg");
-  height: calc(200px + 20vw);
+  height: calc(300px + 20vw);
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
