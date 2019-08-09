@@ -29,18 +29,8 @@ export const blogPageQuery = graphql`
         node {
           frontmatter {
             author
-            date(fromNow: false)
+            date(fromNow: true)
             title
-            primaryImage {
-              childImageSharp {
-                fixed(width: 300) {
-                  src
-                  srcSet
-                  height
-                  width
-                }
-              }
-            }
           }
           excerpt(pruneLength: 100)
         }
