@@ -12,9 +12,12 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <SEO title="Home" />
-      <Header siteTitle={data.site.siteMetadata.title} />
-      <About />
-      <BlogGrid blogs={data.allMarkdownRemark.edges} />
+      <div className="parallax"></div>
+      <main>
+        <Header siteTitle={data.site.siteMetadata.title} />
+        <About />
+        <BlogGrid blogs={data.allMarkdownRemark.edges} />
+      </main>
     </Layout>
   )
 }
