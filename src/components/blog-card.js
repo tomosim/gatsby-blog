@@ -4,18 +4,18 @@ import { Link } from "gatsby"
 
 const BlogCard = ({ blog: { node } }) => {
   return (
-    <Link to={`/placeholder`}>
-      <div className={styles.blogCard}>
-        <h4 className={styles.date}>{node.frontmatter.date}</h4>
+    <div className={styles.blogCard}>
+      <h4 className={styles.date}>{node.frontmatter.date}</h4>
+      <Link to={`/placeholder`}>
         <header className={styles.title}>
           <h2>{node.frontmatter.title}</h2>
         </header>
-        <main className={styles.description}>
-          <p>{node.excerpt}</p>
-        </main>
-        <p className={styles.author}>{node.frontmatter.author}</p>
-      </div>
-    </Link>
+      </Link>
+      <main className={styles.description}>
+        <p>{node.excerpt}</p>
+      </main>
+      <p className={styles.author}>{node.frontmatter.author}</p>
+    </div>
   )
 }
 
