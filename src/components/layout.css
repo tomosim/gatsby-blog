@@ -5,7 +5,7 @@ html {
 }
 .parallax {
   background-image: url("../images/home-page-image.jpg");
-  height: calc(300px + 20vw);
+  height: calc(60vw);
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
@@ -605,8 +605,14 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
 main {
   margin: 0 auto;
   max-width: 960px;
   padding: 0 1.0875rem 1.45rem;
+}
+@media only screen and (max-width: 600px) {
+  main {
+    padding: 0;
+  }
 }
