@@ -4,7 +4,6 @@ import { Link } from "gatsby"
 
 const BlogCard = ({ blog: { node } }) => {
   const path = `/blog/${node.fields.slug}`
-  console.log(path)
   return (
     <div className={styles.blogCard}>
       <h4 className={styles.date}>{node.frontmatter.date}</h4>

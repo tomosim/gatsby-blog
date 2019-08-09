@@ -1,4 +1,3 @@
-console.log(__dirname)
 module.exports = {
   siteMetadata: {
     title: `Out and Out Adventure`,
