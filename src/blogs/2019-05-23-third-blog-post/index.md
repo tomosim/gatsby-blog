@@ -4,6 +4,7 @@ date: "2019-05-21"
 author: "Tom Simmons"
 path: "/blog/2019-05-21/my-third-post"
 primaryImage: "./home-page-image.jpg"
+primaryImageDescription: "person with tent outdoors"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin varius vulputate neque ut euismod. Quisque vitae massa vulputate, interdum orci eu, tincidunt felis. Aenean fringilla ipsum erat, sed pellentesque orci vestibulum et. In blandit, ligula a sodales auctor, tortor ligula vulputate ligula, eget suscipit urna lectus vitae massa. Nulla mi lorem, varius ut dapibus vel, laoreet semper sem. Phasellus quis arcu porttitor, pulvinar ex ut, pharetra neque. Mauris sapien erat, consequat vel tortor eget, cursus ornare elit. Donec arcu diam, commodo id vestibulum non, lobortis nec erat. Cras eleifend, est sed iaculis tincidunt, mauris turpis ornare augue, a aliquet augue elit in orci. Quisque placerat varius sagittis. Vestibulum blandit, enim nec pulvinar dignissim, risus metus laoreet lorem, sit amet ornare lectus erat non lacus. Donec placerat purus quis diam tempor tempor. Vestibulum rutrum nisi sed tortor ullamcorper hendrerit.

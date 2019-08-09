@@ -5,6 +5,7 @@ author: "Sophie Simmons"
 handle: "@simmms90"
 path: "/blog/2019-05-21/my-third-post"
 primaryImage: "./home-page-image.jpg"
+primaryImageDescription: "person with tent outdoors"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dictum velit vel metus tincidunt sollicitudin. Etiam vulputate egestas mi, porttitor rhoncus mi consequat condimentum. Vestibulum mi urna, placerat ut felis ut, molestie vulputate ante. Integer vitae laoreet ante, id convallis elit. Proin quam diam, elementum et lacus et, lobortis cursus nisi. Aliquam tincidunt elit sit amet lorem tincidunt ultricies. In quis est suscipit, pulvinar est ac, convallis ligula. Nunc efficitur turpis id laoreet ultricies. Vestibulum nulla sem, vehicula ac tincidunt nec, pellentesque id dolor. Aenean id quam ipsum. Maecenas congue felis nisl, eu euismod nisi imperdiet eget. Cras consequat mauris ut nisi cursus dignissim tristique a lorem. Ut viverra egestas ornare.
