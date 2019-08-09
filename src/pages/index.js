@@ -35,6 +35,9 @@ export const blogPageQuery = graphql`
             date(fromNow: true)
             title
           }
+          fields {
+            slug
+          }
           excerpt(pruneLength: 100)
         }
       }

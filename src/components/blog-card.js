@@ -3,10 +3,12 @@ import styles from "./blog-card.module.css"
 import { Link } from "gatsby"
 
 const BlogCard = ({ blog: { node } }) => {
+  const path = `/blog/${node.fields.slug}`
+  console.log(path)
   return (
     <div className={styles.blogCard}>
       <h4 className={styles.date}>{node.frontmatter.date}</h4>
-      <Link to={`/placeholder`}>
+      <Link to={path}>
         <header className={styles.title}>
           <h2>{node.frontmatter.title}</h2>
         </header>
