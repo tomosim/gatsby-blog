@@ -8,7 +8,6 @@ import About from "../components/about"
 import BlogGrid from "../components/blog-list"
 
 const IndexPage = ({ data }) => {
-  console.log(data)
   return (
     <Layout>
       <SEO title="Home" />
@@ -22,7 +21,7 @@ const IndexPage = ({ data }) => {
   )
 }
 
-export const blogPageQuery = graphql`
+export const blogListQuery = graphql`
   query RecentPosts {
     allMarkdownRemark(
       limit: 3
@@ -38,7 +37,7 @@ export const blogPageQuery = graphql`
           fields {
             slug
           }
-          excerpt(pruneLength: 100)
+          excerpt(pruneLength: 300)
         }
       }
     }

@@ -1,14 +1,8 @@
-h2 {
-  margin: 0;
-}
-p {
-  margin: 0;
-}
 .blogCard {
   font-family: Roboto, "Open Sans", "Helvetica Neue", sans-serif;
   display: flex;
   flex-direction: column;
-  margin: 20px;
+  margin: 0 20px;
   background-color: white;
 }
 .date {
@@ -19,13 +13,12 @@ p {
 
 .title {
   border-bottom: 2px solid rgb(20, 166, 211);
-  padding: 10px 0;
 }
 
 .description {
   display: flex;
   flex-direction: column;
-  padding: 20px 0 20px 0;
+  padding: 10px 0 10px 0;
   color: rgba(0, 0, 0, 0.7);
 }
 
