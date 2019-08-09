@@ -1,0 +1,40 @@
+h2 {
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+.blogCard {
+  font-family: Roboto, "Open Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  background-color: white;
+}
+.date {
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+}
+
+.title {
+  border-bottom: 2px solid rgb(20, 166, 211);
+  padding: 10px 0;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0 20px 0;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.author {
+  align-self: flex-end;
+  font-style: italic;
+  padding-right: 15px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.primaryImage {
+  grid-row: 1 / span 2;
+}
