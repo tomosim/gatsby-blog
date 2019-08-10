@@ -4,6 +4,7 @@
   flex-direction: column;
   margin: 0 20px;
   background-color: white;
+  min-width: 100%;
 }
 .date {
   font-weight: 300;
