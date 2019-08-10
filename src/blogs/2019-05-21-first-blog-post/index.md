@@ -7,6 +7,11 @@ primaryImage: "./home-page-image.jpg"
 primaryImageDescription: "person with tent outdoors"
 ---
 
+<figure class="image">
+  <img src="home-page-image.jpg" alt="cool">
+  <figcaption>Not bad, eh?</figcaption>
+</figure>
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dui arcu, dapibus eget lobortis ut, eleifend sed mauris. Praesent interdum porttitor neque eu auctor. Integer convallis luctus eros, vel hendrerit enim rhoncus sed. Proin euismod nisi non sagittis sagittis. Pellentesque elementum vel urna at ullamcorper. Duis consectetur dolor nunc, eget posuere tellus lobortis non. Sed mattis augue eu pulvinar lacinia. Pellentesque augue magna, tempus feugiat quam sit amet, aliquam finibus turpis. Integer at iaculis lorem. Integer porta mauris ac sem vestibulum venenatis. Pellentesque at neque aliquam justo eleifend vestibulum ut vel augue. Phasellus ac elit in quam laoreet malesuada. Etiam iaculis malesuada ipsum id lobortis.
 
 Praesent molestie ex vel feugiat aliquam. Quisque ac enim laoreet, feugiat dui vel, aliquam purus. Maecenas tempus gravida mi sed condimentum. Donec porttitor lacus ut tellus aliquam tincidunt. Donec mattis et augue eleifend iaculis. Vestibulum fermentum mauris odio, quis varius augue commodo non. Pellentesque luctus sagittis nibh, a tincidunt est. Suspendisse facilisis pharetra arcu id dapibus. Sed sit amet tortor ante. Sed dignissim vel tellus dictum dapibus. Donec sit amet nulla tincidunt risus consequat pulvinar in ac purus. Proin rutrum nisi ut aliquet finibus. Aenean felis elit, sollicitudin id vehicula et, auctor non velit. Vivamus lobortis nunc in elementum auctor. Sed tortor ante, molestie et pellentesque ut, blandit at tellus.

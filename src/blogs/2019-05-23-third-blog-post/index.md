@@ -1,8 +1,8 @@
 ---
 title: "My Third Post"
-date: "2019-05-21"
+date: "2019-05-23"
 author: "Tom Simmons"
-path: "/blog/2019-05-21/my-third-post"
+path: "/blog/2019-05-23/my-third-post"
 primaryImage: "./home-page-image.jpg"
 primaryImageDescription: "person with tent outdoors"
 ---

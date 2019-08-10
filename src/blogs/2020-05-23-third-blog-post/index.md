@@ -1,9 +1,9 @@
 ---
 title: "Look at this website I've got"
-date: "2019-05-21"
+date: "2019-05-24"
 author: "Sophie Simmons"
 handle: "@simmms90"
-path: "/blog/2019-05-21/my-third-post"
+path: "/blog/2019-05-24/my-third-post"
 primaryImage: "./home-page-image.jpg"
 primaryImageDescription: "person with tent outdoors"
 ---
