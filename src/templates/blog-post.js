@@ -13,9 +13,9 @@ export default function BlogPost({ pageContext, data }) {
       <main className={styles.blogMain}>
         <h1 className={styles.title}>{post.frontmatter.title}</h1>
         <h4 className={styles.subtitle}>{post.frontmatter.date} | {post.frontmatter.author || "Anonymous"} </h4>
-        <div
+        <article
           dangerouslySetInnerHTML={{ __html: data.markdownRemark.excerpt }}
-        ></div>
+        ></article>
       </main>
     </Layout>
   )
