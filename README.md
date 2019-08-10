@@ -4,7 +4,7 @@ _For Sophie. Don't forget me when you make it as an influencer. With love, Tom_
 
 An outdoor adventure blog. Built using Gatsby, React, and Node.js. More specifically, gatsby-transformer-remark allows the author of the blog to simply write blog posts in markdown format and the project will generate HTML pages for them.
 
-## Dependencies
+## 🤖 Dependencies
 
 ```js
 {
@@ -28,7 +28,7 @@ An outdoor adventure blog. Built using Gatsby, React, and Node.js. More specific
   },
 ```
 
-## Quick Start
+## 🏁 Quick Start
 
 1. Install gatsby-cli
 
@@ -48,7 +48,7 @@ npm install
 gatsby develop
 ```
 
-## Adding blogs
+## 📚 Adding blogs
 
 1. Create your blog post in [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). All formatting will be kept on development.
 
