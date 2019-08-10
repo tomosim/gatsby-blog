@@ -2,9 +2,6 @@
 title: "My First Post"
 date: "2019-05-21"
 author: "Tom Simmons"
-path: "/blog/2019-05-21/my-first-post"
-primaryImage: "./home-page-image.jpg"
-primaryImageDescription: "person with tent outdoors"
 ---
 
 <figure class="image">
