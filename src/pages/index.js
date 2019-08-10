@@ -5,17 +5,18 @@ import Header from "../components/header"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import About from "../components/about"
-import BlogGrid from "../components/blog-list"
+import BlogList from "../components/blog-list"
 
 const IndexPage = ({ data }) => {
+  const recentPosts = data.allMarkdownRemark.edges;
   return (
     <Layout>
       <SEO title="Home" />
-      <div className="parallax"></div>
+      <div className="parallax-home"></div>
       <main>
         <Header siteTitle={data.site.siteMetadata.title} />
         <About />
-        <BlogGrid blogs={data.allMarkdownRemark.edges} />
+        <BlogList blogs={recentPosts} />
       </main>
     </Layout>
   )
