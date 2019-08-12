@@ -4,6 +4,10 @@ _For Sophie. Don't forget me when you make it as an influencer. With love, Tom_
 
 An outdoor adventure blog. Built using Gatsby, React, and Node.js. More specifically, gatsby-transformer-remark allows the author of the blog to simply write blog posts in markdown format and the project will generate HTML pages for them.
 
+## 🖼 Deployed example
+
+[Tom's JAM stack blog](https://tomsjamstackblog.netlify.com/)
+
 ## 🤖 Dependencies
 
 ```js
