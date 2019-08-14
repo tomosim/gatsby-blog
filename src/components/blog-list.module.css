@@ -1,10 +1,6 @@
 .blogGrid {
-  padding: 30px;
   display: flex;
-
   flex-direction: column;
-  max-width: 960px;
-  margin: 0 auto;
 }
 
 @media only screen and (max-width: 970px) {
