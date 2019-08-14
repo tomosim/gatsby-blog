@@ -8,11 +8,18 @@
 .date {
   font-weight: 300;
   color: rgba(0, 0, 0, 0.5);
-  margin-bottom: 0;
+  margin: 5px;
+  /* align-self: flex-end; */
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid rgb(20, 166, 211);
 }
 
 .title {
-  border-bottom: 2px solid rgb(20, 166, 211);
+  margin-bottom: 0px;
 }
 
 .description {
