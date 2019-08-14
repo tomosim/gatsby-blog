@@ -9,3 +9,9 @@
     flex-direction: column;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .blogGrid {
+    margin: 20px;
+  }
+}

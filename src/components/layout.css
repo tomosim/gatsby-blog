@@ -128,21 +128,21 @@ samp {
   font-family: monospace, monospace;
   font-size: 1em;
 }
-footer{
+footer {
   text-align: center;
   height: 50px;
   color: rgba(0, 0, 0, 0.5);
 }
-.footerLink{
+.footerLink {
   color: rgb(20, 166, 211);
 }
 .content {
-  min-height: calc(100vh - 70px);
+  min-height: calc(100vh - 50px);
 }
 figure {
   margin: 1em 40px;
 }
-figcaption{
+figcaption {
   padding-left: 10px;
   border-left: solid 2px rgb(20, 166, 211);
   margin-top: 5px;
