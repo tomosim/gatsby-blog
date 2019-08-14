@@ -2,7 +2,6 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { graphql } from "gatsby"
-import Header from "../components/header"
 import Img from "gatsby-image"
 import styles from "./blog-post.module.css"
 
