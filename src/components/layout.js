@@ -1,10 +1,3 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
 import React from "react"
 import PropTypes from "prop-types"
 
@@ -15,7 +8,10 @@ const Layout = ({ children }) => {
   return (
     <>
       <Navbar />
-      {children}
+      <div className="content">
+        {children}
+      </div>
+      <footer >Made by <a className="footerLink" href="https://github.com/tomosim">@tomosim</a></footer>
     </>
   )
 }

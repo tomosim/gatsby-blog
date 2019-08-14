@@ -2,9 +2,6 @@
 title: "My Second Post"
 date: "2019-05-22"
 author: "Tom Simmons"
-path: "/blog/2019-05-22/my-second-post"
-primaryImage: "./home-page-image.jpg"
-primaryImageDescription: "person with tent outdoors"
 ---
 
 # Hello!

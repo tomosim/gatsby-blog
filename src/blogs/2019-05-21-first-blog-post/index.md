@@ -2,10 +2,12 @@
 title: "My First Post"
 date: "2019-05-21"
 author: "Tom Simmons"
-path: "/blog/2019-05-21/my-first-post"
-primaryImage: "./home-page-image.jpg"
-primaryImageDescription: "person with tent outdoors"
 ---
+
+<figure class="image">
+  <img src="home-page-image.jpg" alt="cool">
+  <figcaption>Not bad, eh?</figcaption>
+</figure>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dui arcu, dapibus eget lobortis ut, eleifend sed mauris. Praesent interdum porttitor neque eu auctor. Integer convallis luctus eros, vel hendrerit enim rhoncus sed. Proin euismod nisi non sagittis sagittis. Pellentesque elementum vel urna at ullamcorper. Duis consectetur dolor nunc, eget posuere tellus lobortis non. Sed mattis augue eu pulvinar lacinia. Pellentesque augue magna, tempus feugiat quam sit amet, aliquam finibus turpis. Integer at iaculis lorem. Integer porta mauris ac sem vestibulum venenatis. Pellentesque at neque aliquam justo eleifend vestibulum ut vel augue. Phasellus ac elit in quam laoreet malesuada. Etiam iaculis malesuada ipsum id lobortis.
 

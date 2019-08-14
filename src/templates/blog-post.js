@@ -2,22 +2,22 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { graphql } from "gatsby"
-import Img from "gatsby-image"
 import styles from "./blog-post.module.css"
 
 export default function BlogPost({ pageContext, data }) {
   // const { slug } = pageContext
   const post = data.markdownRemark
-  const featuredImgFluid = post.frontmatter.primaryImage.childImageSharp.fluid
   return (
     <Layout>
       <SEO title="Blog" />
       <main className={styles.blogMain}>
-        <h1>{data.markdownRemark.frontmatter.title}</h1>
-        <Img fluid={featuredImgFluid}></Img>
-        <div
+        <h1 className={styles.title}>{post.frontmatter.title}</h1>
+        <h4 className={styles.subtitle}>
+          {post.frontmatter.date} | {post.frontmatter.author || "Anonymous"}{" "}
+        </h4>
+        <article
           dangerouslySetInnerHTML={{ __html: data.markdownRemark.excerpt }}
-        ></div>
+        ></article>
       </main>
     </Layout>
   )
@@ -30,14 +30,8 @@ export const blogPageQuery = graphql`
       html
       frontmatter {
         title
+        author
         date(formatString: "MMMM DD, YYYY")
-        primaryImage {
-          childImageSharp {
-            fluid {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
       }
     }
   }

@@ -1,3 +1,22 @@
 .blogMain {
-  padding-top: 70px;
+  padding-top: 50px;
+}
+
+.title{
+  font-size: 4em;
+}
+
+.subtitle{
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+@media only screen and (max-width: 480px) {
+  .title {
+    font-size: 3em;
+  }
+  .blogMain {
+    margin: 0 20px;
+    line-height: 1.6em;
+  }
 }

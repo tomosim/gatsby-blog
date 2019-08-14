@@ -12,9 +12,9 @@ const BlogCard = ({ blog: { node } }) => {
           <h2>{node.frontmatter.title}</h2>
         </header>
       </Link>
-      <main className={styles.description}>
+      <article className={styles.description}>
         <p>{node.excerpt}</p>
-      </main>
+      </article>
       <p className={styles.author}>{node.frontmatter.author}</p>
     </div>
   )
