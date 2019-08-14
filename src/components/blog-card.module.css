@@ -31,3 +31,8 @@
 .primaryImage {
   grid-row: 1 / span 2;
 }
+@media only screen and (max-width: 600px) {
+  .description {
+    line-height: 1.6em;
+  }
+}

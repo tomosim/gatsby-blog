@@ -14,15 +14,9 @@
 @media only screen and (max-width: 600px) {
   .blogMain {
     margin: 0 20px;
+    line-height: 1.6em;
   }
-}
-
-/* @media only screen and (max-width: 480px) {
   .title {
     font-size: 3em;
   }
-  .blogMain {
-    margin: 0 20px;
-    line-height: 1.6em;
-  }
-} */
+}
