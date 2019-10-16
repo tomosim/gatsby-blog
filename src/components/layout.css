@@ -69,7 +69,7 @@ template {
   display: none;
 }
 a {
-  color: hsla(0, 0%, 0%, 0.8);
+  color: rgb(20, 166, 211);
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
