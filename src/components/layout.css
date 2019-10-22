@@ -2,6 +2,7 @@ html {
   font-family: "Roboto", "Open Sans", sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  font-size: 18px;
 }
 .parallax-home {
   background-image: url("../images/home-page-image-thin.jpg");
@@ -406,7 +407,7 @@ p {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  line-height: 1.4em;
+  line-height: 1.6em;
 }
 figure {
   margin-left: 0;
@@ -646,7 +647,7 @@ pre tt:after {
 main {
   margin: 0 auto;
   max-width: 800px;
-  padding: 0 1.0875rem 1.45rem;
+  padding: 0 24px 1.45rem;
 }
 @media only screen and (max-width: 600px) {
   main {
