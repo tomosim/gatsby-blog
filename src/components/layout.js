@@ -8,10 +8,13 @@ const Layout = ({ children }) => {
   return (
     <>
       <Navbar />
-      <div className="content">
-        {children}
-      </div>
-      <footer >Made by <a className="footerLink" href="https://github.com/tomosim">@tomosim</a></footer>
+      <div className="content">{children}</div>
+      <footer>
+        Follow me{" "}
+        <a className="footerLink" href="https://www.instagram.come/simmms90/">
+          @simmms90
+        </a>
+      </footer>
     </>
   )
 }
