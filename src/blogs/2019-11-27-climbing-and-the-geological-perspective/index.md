@@ -4,8 +4,6 @@ date: "2019-11-27"
 author: "Sophie Simmons"
 ---
 
-# Climbing and the Geological Perspective
-
 **Climbing is a magical thing** – in a few pitches you can travel through millennia. Each crimp represents layers upon layers of time that has been compressed, metamorphised or erupted into being.
 
 It is also easy to forget all that in the moment, when you're praying that your foot won't pop off the wall or sweating through the crux of a climb.
