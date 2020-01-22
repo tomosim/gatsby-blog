@@ -11,7 +11,7 @@ It is also easy to forget all that in the moment, when you're praying that your 
 I recently had a frustrating climbing experience where nothing seemed to be going right: the wall was seeping up until the first bolt. And I mean seeping. The rock was fully soaked and was covered in a layer of extra slippery moss. Once past this nerve-wrecking obstacle the climb improved and I spent a happy few metres plodding up the slab. Sadly, at the arête I was faced with the choice of going left, via a lot of tussocky grass and loose rock (but some awesome looking ledges), or sticking right on the face of the crag and inching my way up slowly using dubious footholds and pockets that were actually stealth slopers!
 
 <figure>
-    <img src="../img/Climbing_Secret_Squirrel.jpg" alt="me on the face of Great Squirrel">
+    <img src="/img/Climbing_Secret_Squirrel.jpg" alt="me on the face of Great Squirrel">
 </figure>
 
 I went right and moved agonisingly slowly through a serious of committing moves, wishing the next bolt closer to no avail. I used every motivational tool I could think of to keep climbing: positive self talk, breathing techniques, imagining Company Sergeant Major Purcell shouting at me. After 7 bolts, they had all stopped working – even Coy Sgt Maj Purcell.
