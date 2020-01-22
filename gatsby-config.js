@@ -5,6 +5,7 @@ module.exports = {
     author: `@tomosim`,
   },
   plugins: [
+    `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -32,7 +33,6 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
-
           {
             resolve: `gatsby-remark-images`,
             options: {
