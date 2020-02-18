@@ -1,11 +1,12 @@
-import React from 'react';
-import Layout from '../components/layout';
-import SEO from '../components/seo';
-import BlogList from '../components/blog-list';
-import Header from '../components/header'
+import React from "react"
+import { graphql } from "gatsby"
+import Layout from "../components/layout"
+import SEO from "../components/seo"
+import BlogList from "../components/blog-list"
+import Header from "../components/header"
 
 const BlogPage = ({ data }) => {
-  const posts = data.allMarkdownRemark.edges;
+  const posts = data.allMarkdownRemark.edges
   return (
     <Layout>
       <SEO title="Blogs" />
@@ -15,14 +16,12 @@ const BlogPage = ({ data }) => {
         <BlogList blogs={posts} />
       </main>
     </Layout>
-  );
-};
+  )
+}
 
 export const blogListQuery = graphql`
   query AllPosts {
-    allMarkdownRemark(
-      sort: { fields: frontmatter___date, order: DESC }
-    ) {
+    allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }) {
       edges {
         node {
           frontmatter {
@@ -40,4 +39,4 @@ export const blogListQuery = graphql`
   }
 `
 
-export default BlogPage;
+export default BlogPage
