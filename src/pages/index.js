@@ -6,22 +6,21 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import About from "../components/about"
 import BlogList from "../components/blog-list"
-import Button from "../components/button";
-import styles from './index.module.css'
+import Button from "../components/button"
+import styles from "./index.module.css"
 
 const IndexPage = ({ data }) => {
-  const recentPosts = data.allMarkdownRemark.edges;
+  const recentPosts = data.allMarkdownRemark.edges
   return (
     <Layout>
       <SEO title="Home" />
       <div className="parallax-home"></div>
-      <main >
+      <main>
         <Header siteTitle={data.site.siteMetadata.title} />
         <About />
         <div className={styles.list}>
-
           <BlogList blogs={recentPosts} />
-          <Button to='blog' />
+          <Button to="blog" />
         </div>
       </main>
     </Layout>
@@ -38,7 +37,7 @@ export const blogListQuery = graphql`
         node {
           frontmatter {
             author
-            date(fromNow: true)
+            date(formatString: "DD MMMM YYYY")
             title
           }
           fields {

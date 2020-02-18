@@ -26,7 +26,7 @@ export const blogListQuery = graphql`
         node {
           frontmatter {
             author
-            date(fromNow: true)
+            date(formatString: "DD MMMM YYYY")
             title
           }
           fields {
