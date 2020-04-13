@@ -16,7 +16,7 @@ export default function BlogPost({ pageContext, data }) {
           {post.frontmatter.date} | {post.frontmatter.author || "Anonymous"}{" "}
         </h4>
         <article
-          dangerouslySetInnerHTML={{ __html: data.markdownRemark.excerpt }}
+          dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}
         ></article>
       </main>
     </Layout>
