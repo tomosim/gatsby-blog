@@ -28,3 +28,9 @@ So, how do you avoid being considered a wanker?  Mainly use common sense and the
    \*ok so not every hut is warm and dry - but intention is that they are!
 
 ![Happy Feet outside Captains Creek Hut, Richmond Ranges](/img/DSCF8773.jpg "Photo courtesy of Shermin \\"Happy Feet\\" Maningas")
+
+Image 1: Porters Creek Hut, Richmond Ranges
+
+Image 2: Cooking and eating in Boyle Flat Hut
+
+Imagine 3: Happy Feet outside Captains Creek Hut, Richmond Ranges
