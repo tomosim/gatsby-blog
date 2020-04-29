@@ -5,7 +5,7 @@ author: Sophie Simmons
 ---
 You've been hiking for hours on rough and unforgiving terrain, your pack feels heavy no matter how many snacks you eat and it's pouring down with rain.  Finally, in the distance, you spot your home for the night - a back country hut.  Huts are wonderful and welcome refuges where hikers can shelter from the elements, meet other walkers, hear hiking beta, cook meals and most importantly sleep somewhere warm and dry* for the night. 
 
-![Porters Creek Hut, Richmond Ranges](/img/DSCF8459.jpg "Photo courtesy of Shermin \\"Happy Feet\\" Maningas")
+![Porters Creek Hut, Richmond Ranges](/img/DSCF8459.jpg "Photo courtesy of Shermin \"Happy Feet\" Maningas")
 
 New Zealand's South Island has an excellent network of back country huts designed for hikers and hunters to use as they enjoy the great outdoors.  The vast majority of these are maintained by the Dept of Conservation and hut passes can either be paid for on an ad hoc basis or you can buy a season pass that allows you to stay in as many huts as you like for a certain time period.  Of course most thru-hikers will opt for the 6 month pass which means each night ends up costing approximately $3.  Unlike huts in say, Switzerland, NZ huts are self-catered and usually pretty basic.  Most consist of just one room and therefore good hut etiquette is mandatory to ensure that everyone still likes you when you leave the hut in the morning. 
 
@@ -18,7 +18,7 @@ So, how do you avoid being considered a wanker?  Mainly use common sense and the
 3. **Lean into conversations.**  As someone who likes hiking alone the huts were my main opportunity to socialise.  Even when I felt tired and antisocial I soon found that talking to other hikers was valuable and interesting!  The Te Araroa attracts people from all over the world and it is remarkable to have the opportunity to meet walkers from different cultures but often people from home too!  There is something comforting about meeting another Brit on the other side of the world and finally having a sympathetic ear as I complained about the poor state of NZ teabags.  The main topics of conversation seemed to be: hiking beta from those going the opposite direction, gear, trail food and the town food we couldn't wait to eat.  My friends and I had to break the news to some hikers going SOBO that there wasn't another McDonalds for at least 1000km - they were very disheartened by this news no matter how many wonderful pie shops we told them about.  Remember that you're stuck in the hut with your fellow hikers for the night so it may be prudent to avoid the traditional dinner party conversational no-gos if you want a civil evening (no politics, no religion).
 4. **Read the room.**  On the other hand, although you might bound into a hut feeling starved of human interaction and wanting to hold forth over dinner, pay attention to the moods of those around you.  If people don't want to talk then don't try and force it.  There is nothing more annoying than that hiker who keeps making unsolicited comments on your gear, dinner or whatever in an effort to start a conversation.  My personal pet peeve is when people interrupt me reading to ask what I'm reading - especially when I then have to launch into a lengthy explanation of the lesbian necromancer plot points to do the book justice. 
 
-![Cooking and eating in Boyle Flat Hut](/img/DSCF8011.jpg "Photo courtesy of Shermin \\"Happy Feet\\" Maningas")
+![Cooking and eating in Boyle Flat Hut](/img/DSCF8011.jpg "Photo courtesy of Shermin \"Happy Feet\" Maningas")
 
 5. **Consider light discipline.**  There is no such thing as privacy in backcountry huts, sleeping areas are communal and so if you turn your torch on in the middle of the night - everyone sees it.  Getting a head torch with a red light function is a game changer as it allows you to find your way to the bathroom in the middle of the night without aggressively blinding everyone with a bright white light.  I would suggest using red light after bed time and early in the morning if you are getting up earlier than others. 
 6. **Noise discipline.**  This one is mostly common sense, don't be noisier than necessary and respect other people's bedtimes.  The people who arrived at a hut at 2100 hrs and decided to start playing with their drone were on the receiving end of some serious tut-tutting from me after ignoring this piece of courtesy. 
@@ -27,7 +27,7 @@ So, how do you avoid being considered a wanker?  Mainly use common sense and the
 
    \*ok so not every hut is warm and dry - but intention is that they are!
 
-![Happy Feet outside Captains Creek Hut, Richmond Ranges](/img/DSCF8773.jpg "Photo courtesy of Shermin \\"Happy Feet\\" Maningas")
+![Happy Feet outside Captains Creek Hut, Richmond Ranges](/img/DSCF8773.jpg "Photo courtesy of Shermin \"Happy Feet\" Maningas")
 
 Image 1: Porters Creek Hut, Richmond Ranges
 
