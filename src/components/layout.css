@@ -23,12 +23,12 @@ html {
 
 @media only screen and (min-width: 1100px) {
   .parallax-home {
-    background-image: url("../images/home-page-image-wide.jpg");
-    height: 35vw;
+    background-image: url("../images/home-page-image-thin.jpg");
+    height: 100vh;
   }
   .parallax-blogs {
-    background-image: url("../images/blog-page-image-wide.jpg");
-    height: 35vw;
+    background-image: url("../images/blog-page-image-thin.jpg");
+    height: 100vh;
   }
 }
 
