@@ -12,7 +12,7 @@ const { createFilePath } = require(`gatsby-source-filesystem`)
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
   const blogPostTemplate = path.resolve(`src/templates/blog-post.js`)
-  const blogListByTag = path.resolve(`src/templates/blog-list-by-tag.js`)
+  const blogsByTag = path.resolve(`src/templates/blogs-by-tag.js`)
   return graphql(
     `
       query loadPagesQuery($limit: Int!) {
@@ -65,7 +65,7 @@ exports.createPages = ({ graphql, actions }) => {
     for (let tag in postsByTag) {
       createPage({
         path: `/tags/${tag}`,
-        component: blogListByTag,
+        component: blogsByTag,
         context: {
           blogs: postsByTag[tag],
         },
