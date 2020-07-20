@@ -5,7 +5,6 @@ import SEO from "../components/seo"
 import Header from "../components/header"
 
 export default function BlogsByTag({ data, pageContext }) {
-  console.log(pageContext)
   return (
     <Layout>
       <SEO title="Blogs" />

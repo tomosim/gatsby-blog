@@ -45,7 +45,6 @@ exports.createPages = ({ graphql, actions }) => {
     const posts = result.data.allMarkdownRemark.edges
     const postsByTag = {}
     posts.forEach(post => {
-      console.log(post)
       post.node.frontmatter.tags.forEach(tag => {
         if (tag in postsByTag === false) {
           postsByTag[tag] = [post]
