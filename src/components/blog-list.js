@@ -7,7 +7,6 @@ export default class BlogList extends Component {
     return (
       <div className={styles.blogGrid}>
         {this.props.blogs.map(blog => {
-          //   return <h3>{blog.node.frontmatter.title}</h3>
           return (
             <BlogCard
               key={blog.node.fields.slug}
@@ -16,7 +15,6 @@ export default class BlogList extends Component {
             />
           )
         })}
-
       </div>
     )
   }
