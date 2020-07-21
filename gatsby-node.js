@@ -67,6 +67,7 @@ exports.createPages = ({ graphql, actions }) => {
         path: `/tags/${tag}`,
         component: blogsByTag,
         context: {
+          tag,
           blogs: postsByTag[tag],
         },
       })

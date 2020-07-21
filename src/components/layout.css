@@ -536,6 +536,8 @@ li {
 }
 ol li {
   padding-left: 0;
+  margin-bottom: 1.45rem;
+  line-height: 1.6em;
 }
 ul li {
   padding-left: 0;

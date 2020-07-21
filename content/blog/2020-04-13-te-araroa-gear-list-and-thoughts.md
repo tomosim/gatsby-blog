@@ -3,7 +3,7 @@ title: Te Araroa Gear List and Thoughts
 date: 2020-04-05T12:35:27.639Z
 author: Sophie Simmons
 tags:
-  - newzealand
+  - new-zealand
   - gear
 ---
 
@@ -79,7 +79,7 @@ The aspect of thru-hiking that gets walkers excited more than anything else howe
 
 ### Base Weight
 
-Base weight means the weight of your pack without any worn items or consumables i.e. food, water or fuel. As an aficionado of YouTube thru-hiking videos and blogs I was acutely aware of the importance of base weight. On the internet, a low base weight seems to give you credibility as ultralight hiker - although there was surprisingly little of that attitude actually on the trail. Maybe this is because I was in New Zealand where the "tramping" culture is much more rugged and therefore kit traditionally errs on the side of durable rather than lightweight.
+Base weight means the weight of your pack without any worn items or consumables i.e. food, water or fuel. As an aficionado of YouTube thru-hiking videos and blogs I was acutely aware of the importance of base weight. On the internet, a low base weight seems to give you credibility as ultralight hiker - although there was surprisingly little of that attitude actually on the trail. Maybe this is because I was in new-zealand where the "tramping" culture is much more rugged and therefore kit traditionally errs on the side of durable rather than lightweight.
 
 At 7.84 kg (17lbs 4oz) my base weight was reasonably high for a thru-hiker. As I hiked the trail on a bit of a whim I didn't plan my gear as well as I might have otherwise, and I didn't have an opportunity to weigh my pack until I got back to the UK. I was pretty shocked when I added up all my gear and found how heavy it was in total. All that carrying heavy packs in the Army paid off I guess as it never felt like a particularly onerous weight while I was hiking. Having said that, I'm sure I would have skipped up inclines with much more ease if I lightened the load somewhat so I started to consider which bits of kit I could lose completely or swap out for a lighter alternative.
 

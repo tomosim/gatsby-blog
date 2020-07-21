@@ -4,7 +4,7 @@ date: 2020-02-18T00:08:00.286Z
 author: Sophie Simmons
 tags:
   - hiking
-  - newzealand
+  - new-zealand
 ---
 
 Over 800km into the Te Araroa trail, and having met countless other hikers on the journey, I have identified a predictable transaction that takes place whenever walkers cross paths. It goes a little like this:
@@ -21,7 +21,7 @@ Over 800km into the Te Araroa trail, and having met countless other hikers on th
 
 "Nah, **just** the South Island."
 
-For those wondering, Cape Reinga is the Northernmost terminus of the Te Araroa, right at the top of the North Island of New Zealand. As someone who is only hiking the length of the South Island, I will be finishing in Ship's Cove, some 1500 km short of the complete route.
+For those wondering, Cape Reinga is the Northernmost terminus of the Te Araroa, right at the top of the North Island of new-zealand. As someone who is only hiking the length of the South Island, I will be finishing in Ship's Cove, some 1500 km short of the complete route.
 
 ![](/img/TAselfie1.jpg "Before Imposter Syndrome Strikes!")
 

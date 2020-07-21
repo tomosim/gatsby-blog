@@ -4,7 +4,7 @@ date: "2019-11-27"
 author: Sophie Simmons
 tags:
   - climbing
-  - newzealand
+  - new-zealand
 ---
 
 **Climbing is a magical thing** – in a few pitches you can travel through millennia. Each crimp represents layers upon layers of time that has been compressed, metamorphised or erupted into being.

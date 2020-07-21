@@ -10,7 +10,7 @@ export default function BlogsByTag({ data, pageContext }) {
       <SEO title="Blogs" />
       <div className="parallax-blogs"></div>
       <main>
-        <Header siteTitle="Blogs" />
+        <Header siteTitle="Blogs" tag={pageContext.tag} />
         <BlogList blogs={pageContext.blogs} />
       </main>
     </Layout>
