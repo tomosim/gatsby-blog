@@ -4,7 +4,7 @@ import styles from "./dropdown.module.css"
 import onClickOutside from "react-onclickoutside"
 import formatTag from "../utils/format-tag.js"
 
-const DropDown = ({ dropDownIsOpen, setDropDown }) => {
+function DropDown({ dropDownIsOpen, setDropDown }) {
   DropDown.handleClickOutside = () => setDropDown(false)
   return (
     <StaticQuery
