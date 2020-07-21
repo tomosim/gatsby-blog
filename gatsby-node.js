@@ -12,18 +12,29 @@ const { createFilePath } = require(`gatsby-source-filesystem`)
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
   const blogPostTemplate = path.resolve(`src/templates/blog-post.js`)
+  const blogsByTag = path.resolve(`src/templates/blogs-by-tag.js`)
   return graphql(
     `
       query loadPagesQuery($limit: Int!) {
-        allMarkdownRemark(limit: $limit) {
+        allMarkdownRemark(
+          limit: $limit
+          sort: { fields: frontmatter___date, order: DESC }
+        ) {
           edges {
             node {
               fields {
                 slug
               }
               frontmatter {
+                author
+                date(formatString: "DD MMMM YYYY")
                 title
+                tags
               }
+              fields {
+                slug
+              }
+              excerpt(pruneLength: 300)
             }
           }
         }
@@ -32,21 +43,35 @@ exports.createPages = ({ graphql, actions }) => {
     { limit: 1000 }
   ).then(result => {
     const posts = result.data.allMarkdownRemark.edges
-
-    posts.forEach((post, index) => {
-      const previous = index === posts.length - 1 ? null : posts[index + 1].node
-      const next = index === 0 ? null : posts[index - 1].node
+    const postsByTag = {}
+    posts.forEach(post => {
+      post.node.frontmatter.tags.forEach(tag => {
+        if (tag in postsByTag === false) {
+          postsByTag[tag] = [post]
+        } else {
+          postsByTag[tag].push(post)
+        }
+      })
 
       createPage({
         path: `/blog/${post.node.fields.slug}`,
         component: blogPostTemplate,
         context: {
           slug: post.node.fields.slug,
-          previous,
-          next,
+          tags: post.node.frontmatter.tags,
         },
       })
     })
+    for (let tag in postsByTag) {
+      createPage({
+        path: `/tags/${tag}`,
+        component: blogsByTag,
+        context: {
+          tag,
+          blogs: postsByTag[tag],
+        },
+      })
+    }
   })
 }
 

@@ -1,7 +1,9 @@
 ---
 title: "Example Post"
 date: "2019-10-16"
-author: "Sophie Simmons"
+author: "Tom Simmons"
+tags:
+  - tutorials
 ---
 
 # This is an example Heading
@@ -28,7 +30,9 @@ At the top of this file you'll see a section that looks like this:
 ---
 title: "Example Post"
 date: "2019-10-16"
-author: "Sophie Simmons"
+author: "Tom Simmons"
+tags:
+  - tutorials
 ---
 ```
 
