@@ -2,6 +2,7 @@ import React from "react"
 import { Link, graphql, StaticQuery } from "gatsby"
 import styles from "./dropdown.module.css"
 import onClickOutside from "react-onclickoutside"
+import formatTag from "../utils/tag-formatter"
 
 const DropDown = ({ dropDownIsOpen, setDropDown }) => {
   DropDown.handleClickOutside = () => setDropDown(false)
@@ -41,14 +42,10 @@ const DropDown = ({ dropDownIsOpen, setDropDown }) => {
                 {tags.map(tag => {
                   return (
                     <Link to={`/tags/${tag}`} className={styles.dropdownItem}>
-                      {tag}
+                      {formatTag(tag)}
                     </Link>
                   )
                 })}
-
-                <Link to="/tags/hiking" className={styles.dropdownItem}>
-                  hiking
-                </Link>
               </div>
             )}
           </div>
