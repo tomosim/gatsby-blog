@@ -30,7 +30,7 @@ const DropDown = ({ dropDownIsOpen, setDropDown }) => {
           return acc
         }, [])
         return (
-          <div
+          <a
             className={styles.navbarLink}
             onClick={() => setDropDown(true)}
             //   onMouseLeave={() => setDropDown(false)}
@@ -47,7 +47,7 @@ const DropDown = ({ dropDownIsOpen, setDropDown }) => {
                 })}
               </div>
             )}
-          </div>
+          </a>
         )
       }}
     />
