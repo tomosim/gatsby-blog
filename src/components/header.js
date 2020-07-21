@@ -1,7 +1,7 @@
 import PropTypes from "prop-types"
 import React from "react"
 import styles from "./header.module.css"
-import formatTag from "../utils/tag-formatter"
+import formatTag from "../utils/format-tag.js"
 
 const Header = ({ siteTitle, tag }) => (
   <header>

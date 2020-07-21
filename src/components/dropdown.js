@@ -2,7 +2,7 @@ import React from "react"
 import { Link, graphql, StaticQuery } from "gatsby"
 import styles from "./dropdown.module.css"
 import onClickOutside from "react-onclickoutside"
-import formatTag from "../utils/tag-formatter"
+import formatTag from "../utils/format-tag.js"
 
 const DropDown = ({ dropDownIsOpen, setDropDown }) => {
   DropDown.handleClickOutside = () => setDropDown(false)
@@ -23,7 +23,6 @@ const DropDown = ({ dropDownIsOpen, setDropDown }) => {
       `}
       render={data => {
         const posts = data.allMarkdownRemark.edges
-        console.log(posts)
         const tags = posts.reduce((acc, post) => {
           post.node.frontmatter.tags.forEach(tag => {
             if (!acc.includes(tag)) acc.push(tag)
