@@ -3,7 +3,7 @@ title: Reflections on the West Highland Way
 date: 2020-08-26T15:45:21.807Z
 author: Sophie Simmons
 tags:
-  - Hiking
+  - hiking
 ---
 I spent the past 8 days on the West Highland Way (WHW) and wanted to capture my thoughts on the walk before I return to the daily grind, and long days spent hiking happily are just a fuzzy memory.  The 96 mile (or 154 kilometre) walk is one of, if not *the*, UK's most iconic long distance hiking routes.  It starts just North of Glasgow, finishes in Fort William, and makes its way through some of West Scotland's most famously beautiful scenery.  Usually, the WHW is very busy, especially in the summer time, but my hiking companion and I soon discovered that this year was very different.  As expected, the footfall on the trail was much lower than usual - with one person telling us that usually they have 500 WHW walkers coming through their bar every day as opposed to this years average of 50 a day.  This probably means that my experiences will be a little different to most who have completed this hike in more "normal" years. 
 
