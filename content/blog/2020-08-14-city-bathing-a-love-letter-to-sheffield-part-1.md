@@ -3,7 +3,7 @@ title: "City Bathing: A Love Letter to Sheffield Part 1"
 date: 2020-08-14T13:32:50.737Z
 author: Sophie Simmons
 tags:
-  - city
+  - Sheffield
 ---
 This morning I sought to refute the idea that it is only rural spaces that can be relaxing and “good for the soul”. Instead, in the brief fifteen minute window I had before work, I took my cup of tea outside to bathe in the glory of England’s sixth biggest city.
 
