@@ -6,9 +6,7 @@ export default function About() {
     <section className={styles.about}>
       <h2 className={styles.emoji}>⛰</h2>
       <p>
-        Ex-Army Officer trying to find excuses to stay outside and seek
-        adventure.  Currently working in Outdoor Leadership and climbing and
-        hiking around new-zealand.
+        Queer hiker, climber and biker trying to find excuses to stay outside and seek adventure. Currently trying to recreate responsibly, challenge dominant perceptions in the outdoors industry and enjoy having the Peak District on my doorstep
       </p>
     </section>
   )
