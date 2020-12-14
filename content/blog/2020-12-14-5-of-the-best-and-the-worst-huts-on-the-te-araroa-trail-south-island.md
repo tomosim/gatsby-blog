@@ -3,7 +3,7 @@ title: 5 of the Best, and the Worst, Huts on the Te Araroa Trail (South Island)
 date: 2020-12-14T13:42:44.012Z
 author: Sophie Simmons
 tags:
-  - new zealand
+  - new-zealand
   - hiking
 ---
 Disclaimer: All huts are good huts in that they save the weary hiker from a night out in their tent, however, some definitely offer more hospitable respites than others. Interestingly when writing this article, I noticed that my favourable, or not so favourable, impression of a hut was largely due to the memories I associated with each one. Laughing with friends in an old, wriggly-tin hut might have been more magical than a quiet night in a new but sterile hut. All that is to say that this list is highly subjective and I welcome feedback and lively debate if you disagree with me!
